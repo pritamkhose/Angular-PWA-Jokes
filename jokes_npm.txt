@@ -1,0 +1,286 @@
+Your environment has been set up for using Node.js 8.11.2 (x64) and npm.
+
+C:\Users\Pritam>D:
+
+D:\>cd E:\Code\Java\AngularCLI\PWA
+
+D:\>E:
+
+E:\Code\Java\AngularCLI\PWA>ng -v
+Available Commands:
+  add Adds support for an external library to your project.
+  build (b) Compiles an Angular app into an output directory named dist/ at the given output path. Must be executed from within a workspace directory.
+  config Retrieves or sets Angular configuration values in the angular.json file for the workspace.
+  doc (d) Opens the official Angular documentation (angular.io) in a browser, and searches for a given keyword.
+  e2e (e) Builds and serves an Angular app, then runs end-to-end tests using Protractor.
+  generate (g) Generates and/or modifies files based on a schematic.
+  help Lists available commands and their short descriptions.
+  lint (l) Runs linting tools on Angular app code in a given project folder.
+  new (n) Creates a new workspace and an initial Angular app.
+  run Runs an Architect target with an optional custom builder configuration defined in your project.
+  serve (s) Builds and serves your app, rebuilding on file changes.
+  test (t) Runs unit tests in a project.
+  update Updates your application and its dependencies. See https://update.angular.io/
+  version (v) Outputs Angular CLI version.
+  xi18n Extracts i18n messages from source code.
+
+For more detailed help run "ng [command name] --help"
+
+E:\Code\Java\AngularCLI\PWA>ng new jokes
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+CREATE jokes/angular.json (3759 bytes)
+CREATE jokes/package.json (1304 bytes)
+CREATE jokes/README.md (1022 bytes)
+CREATE jokes/tsconfig.json (435 bytes)
+CREATE jokes/tslint.json (2824 bytes)
+CREATE jokes/.editorconfig (246 bytes)
+CREATE jokes/.gitignore (576 bytes)
+CREATE jokes/src/favicon.ico (5430 bytes)
+CREATE jokes/src/index.html (292 bytes)
+CREATE jokes/src/main.ts (372 bytes)
+CREATE jokes/src/polyfills.ts (3694 bytes)
+CREATE jokes/src/test.ts (642 bytes)
+CREATE jokes/src/styles.css (80 bytes)
+CREATE jokes/src/browserslist (388 bytes)
+CREATE jokes/src/karma.conf.js (980 bytes)
+CREATE jokes/src/tsconfig.app.json (166 bytes)
+CREATE jokes/src/tsconfig.spec.json (256 bytes)
+CREATE jokes/src/tslint.json (314 bytes)
+CREATE jokes/src/assets/.gitkeep (0 bytes)
+CREATE jokes/src/environments/environment.prod.ts (51 bytes)
+CREATE jokes/src/environments/environment.ts (662 bytes)
+CREATE jokes/src/app/app-routing.module.ts (245 bytes)
+CREATE jokes/src/app/app.module.ts (393 bytes)
+CREATE jokes/src/app/app.component.html (1152 bytes)
+CREATE jokes/src/app/app.component.spec.ts (1092 bytes)
+CREATE jokes/src/app/app.component.ts (209 bytes)
+CREATE jokes/src/app/app.component.css (0 bytes)
+CREATE jokes/e2e/protractor.conf.js (752 bytes)
+CREATE jokes/e2e/tsconfig.e2e.json (213 bytes)
+CREATE jokes/e2e/src/app.e2e-spec.ts (297 bytes)
+CREATE jokes/e2e/src/app.po.ts (204 bytes)
+npm WARN deprecated circular-json@0.5.9: CircularJSON is in maintenance only, flatted is its successor.
+
+> node-sass@4.10.0 install E:\Code\Java\AngularCLI\PWA\jokes\node_modules\node-sass
+> node scripts/install.js
+
+Cached binary found at C:\Users\Pritam\AppData\Roaming\npm-cache\node-sass\4.10.0\win32-x64-57_binding.node
+
+> node-sass@4.10.0 postinstall E:\Code\Java\AngularCLI\PWA\jokes\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at E:\Code\Java\AngularCLI\PWA\jokes\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Testing binary
+Binary is fine
+npm WARN ajv-keywords@3.4.0 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1134 packages in 421.802s
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/tsconfig.e2e.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app-routing.module.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/browserslist.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/karma.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/main.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/styles.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.app.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.spec.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tslint.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory.
+    Successfully initialized git.
+
+E:\Code\Java\AngularCLI\PWA>cd jokes
+
+E:\Code\Java\AngularCLI\PWA\jokes>ng g s data
+CREATE src/app/data.service.spec.ts (323 bytes)
+CREATE src/app/data.service.ts (133 bytes)
+
+E:\Code\Java\AngularCLI\PWA\jokes>ng build --prod
+
+Date: 2019-02-13T16:11:25.549Z
+Hash: 8c753cd4494c0565f774
+Time: 39556ms
+chunk {0} runtime.ec2944dd8b20ec099bf3.js (runtime) 1.41 kB [entry] [rendered]
+chunk {1} main.608b71cc5f870651fbdb.js (main) 262 kB [initial] [rendered]
+chunk {2} polyfills.e254f6b9bf511460eb6d.js (polyfills) 41 kB [initial] [rendered]
+chunk {3} styles.3ff695c00d717f2d2a11.css (styles) 0 bytes [initial] [rendered]
+
+E:\Code\Java\AngularCLI\PWA\jokes>cd dist
+
+E:\Code\Java\AngularCLI\PWA\jokes\dist>cd jokes
+
+E:\Code\Java\AngularCLI\PWA\jokes\dist\jokes>http-server -o
+'http-server' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\AngularCLI\PWA\jokes\dist\jokes>npm i http-server
+npm WARN ajv-keywords@3.4.0 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ http-server@0.11.1
+added 10 packages in 35.652s
+
+E:\Code\Java\AngularCLI\PWA\jokes\dist\jokes>http-server -o
+'http-server' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\AngularCLI\PWA\jokes\dist\jokes>cd..
+
+E:\Code\Java\AngularCLI\PWA\jokes\dist>cd..
+
+E:\Code\Java\AngularCLI\PWA\jokes>npm install http-server -g
+C:\Users\Pritam\AppData\Roaming\npm\hs -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\http-server\bin\http-server
+C:\Users\Pritam\AppData\Roaming\npm\http-server -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\http-server\bin\http-server
++ http-server@0.11.1
+added 25 packages in 4.655s
+
+E:\Code\Java\AngularCLI\PWA\jokes>http-server -o
+Starting up http-server, serving ./
+Available on:
+  http://192.168.230.1:8080
+  http://192.168.92.1:8080
+  http://127.0.0.1:8080
+Hit CTRL-C to stop the server
+[Wed Feb 13 2019 22:57:26 GMT+0530 (India Standard Time)] "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134"
+[Wed Feb 13 2019 22:58:04 GMT+0530 (India Standard Time)] "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 22:58:07 GMT+0530 (India Standard Time)] "GET /favicon.ico" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 22:58:07 GMT+0530 (India Standard Time)] "GET /favicon.ico" Error (404): "Not found"
+[Wed Feb 13 2019 22:59:05 GMT+0530 (India Standard Time)] "GET /dist/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 22:59:06 GMT+0530 (India Standard Time)] "GET /dist/jokes/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 22:59:06 GMT+0530 (India Standard Time)] "GET /styles.3ff695c00d717f2d2a11.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 22:59:06 GMT+0530 (India Standard Time)] "GET /runtime.ec2944dd8b20ec099bf3.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 22:59:06 GMT+0530 (India Standard Time)] "GET /main.608b71cc5f870651fbdb.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 22:59:06 GMT+0530 (India Standard Time)] "GET /polyfills.e254f6b9bf511460eb6d.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 22:59:06 GMT+0530 (India Standard Time)] "GET /styles.3ff695c00d717f2d2a11.css" Error (404): "Not found"
+[Wed Feb 13 2019 22:59:06 GMT+0530 (India Standard Time)] "GET /runtime.ec2944dd8b20ec099bf3.js" Error (404): "Not found"
+[Wed Feb 13 2019 22:59:06 GMT+0530 (India Standard Time)] "GET /main.608b71cc5f870651fbdb.js" Error (404): "Not found"
+[Wed Feb 13 2019 22:59:06 GMT+0530 (India Standard Time)] "GET /polyfills.e254f6b9bf511460eb6d.js" Error (404): "Not found"
+[Wed Feb 13 2019 22:59:06 GMT+0530 (India Standard Time)] "GET /main.608b71cc5f870651fbdb.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 22:59:06 GMT+0530 (India Standard Time)] "GET /main.608b71cc5f870651fbdb.js" Error (404): "Not found"
+http-server stopped.
+
+E:\Code\Java\AngularCLI\PWA\jokes>cd dist
+
+E:\Code\Java\AngularCLI\PWA\jokes\dist>cd jpkes
+The system cannot find the path specified.
+
+E:\Code\Java\AngularCLI\PWA\jokes\dist>cd jokes
+
+E:\Code\Java\AngularCLI\PWA\jokes\dist\jokes>http-server -o
+Starting up http-server, serving ./
+Available on:
+  http://192.168.230.1:8080
+  http://192.168.92.1:8080
+  http://192.168.43.11:8080
+  http://127.0.0.1:8080
+Hit CTRL-C to stop the server
+[Wed Feb 13 2019 23:00:00 GMT+0530 (India Standard Time)] "GET /" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 23:00:00 GMT+0530 (India Standard Time)] "GET /styles.3ff695c00d717f2d2a11.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 23:00:00 GMT+0530 (India Standard Time)] "GET /runtime.ec2944dd8b20ec099bf3.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 23:00:00 GMT+0530 (India Standard Time)] "GET /polyfills.e254f6b9bf511460eb6d.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 23:00:00 GMT+0530 (India Standard Time)] "GET /main.608b71cc5f870651fbdb.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+[Wed Feb 13 2019 23:00:02 GMT+0530 (India Standard Time)] "GET /favicon.ico" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+http-server stopped.
+
+E:\Code\Java\AngularCLI\PWA\jokes\dist\jokes>cd..
+
+E:\Code\Java\AngularCLI\PWA\jokes\dist>cd..
+
+E:\Code\Java\AngularCLI\PWA\jokes>ng add @angular/pwa
+Installing packages for tooling via npm.
+npm ERR! Unexpected end of JSON input while parsing near '...cies":{"@schematics/a'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Pritam\AppData\Roaming\npm-cache\_logs\2019-02-13T17_33_00_716Z-debug.log
+Package install failed, see above.
+Package install failed, see above.
+
+E:\Code\Java\AngularCLI\PWA\jokes>ng add @angular/pwa
+Installing packages for tooling via npm.
+npm ERR! Unexpected end of JSON input while parsing near '...cies":{"@schematics/a'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Pritam\AppData\Roaming\npm-cache\_logs\2019-02-13T17_34_32_592Z-debug.log
+Package install failed, see above.
+Package install failed, see above.
+
+E:\Code\Java\AngularCLI\PWA\jokes>ng serve
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+Date: 2019-02-13T17:36:13.707Z
+Hash: 606196eac138b61e2b72
+Time: 26713ms
+chunk {main} main.js, main.js.map (main) 11.5 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 237 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 16.3 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.67 MB [initial] [rendered]
+i ｢wdm｣: Compiled successfully.
+^CTerminate batch job (Y/N)? y
+
+E:\Code\Java\AngularCLI\PWA\jokes>npm i @angular/pwa
+npm ERR! Unexpected end of JSON input while parsing near '...cies":{"@schematics/a'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Pritam\AppData\Roaming\npm-cache\_logs\2019-02-13T17_37_52_991Z-debug.log
+
+E:\Code\Java\AngularCLI\PWA\jokes>npm i @angular/pwa
+npm ERR! Unexpected end of JSON input while parsing near '...cies":{"@schematics/a'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Pritam\AppData\Roaming\npm-cache\_logs\2019-02-13T17_40_18_982Z-debug.log
+
+E:\Code\Java\AngularCLI\PWA\jokes>
+E:\Code\Java\AngularCLI\PWA\jokes>cd..
+
+E:\Code\Java\AngularCLI\PWA>
