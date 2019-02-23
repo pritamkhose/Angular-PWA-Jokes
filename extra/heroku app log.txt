@@ -1,0 +1,94 @@
+-----> Node.js app detected
+       
+-----> Creating runtime environment
+       
+       NPM_CONFIG_LOGLEVEL=error
+       NODE_ENV=production
+       NODE_MODULES_CACHE=true
+       NODE_VERBOSE=false
+       
+-----> Installing binaries
+       engines.node (package.json):  8.11.2
+       engines.npm (package.json):   5.6.0
+       
+       Resolving node version 8.11.2...
+       Downloading and installing node 8.11.2...
+       npm 5.6.0 already installed with node
+       
+-----> Building dependencies
+       Installing node modules (package.json + package-lock)
+       
+       > myjokes@0.0.0 preinstall /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6
+       > npm install -g @angular/cli @angular/compiler-cli typescript
+       
+       /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/.heroku/node/bin/ng -> /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/.heroku/node/lib/node_modules/@angular/cli/bin/ng
+       /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/.heroku/node/bin/ivy-ngcc -> /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/.heroku/node/lib/node_modules/@angular/compiler-cli/src/ngcc/main-ngcc.js
+       /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/.heroku/node/bin/ngc -> /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/.heroku/node/lib/node_modules/@angular/compiler-cli/src/main.js
+       /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/.heroku/node/bin/ng-xi18n -> /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/.heroku/node/lib/node_modules/@angular/compiler-cli/src/extract_i18n.js
+       /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/.heroku/node/bin/tsc -> /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/.heroku/node/lib/node_modules/typescript/bin/tsc
+       /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/.heroku/node/bin/tsserver -> /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/.heroku/node/lib/node_modules/typescript/bin/tsserver
+       + typescript@3.3.3333
+       + @angular/cli@7.3.3
+       + @angular/compiler-cli@7.2.6
+       added 521 packages in 17.196s
+       
+       > node-sass@4.10.0 install /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/node_modules/node-sass
+       > node scripts/install.js
+       
+       Downloading binary from https://github.com/sass/node-sass/releases/download/v4.10.0/linux-x64-57_binding.node
+       Download complete
+       Binary saved to /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/node_modules/node-sass/vendor/linux-x64-57/binding.node
+       Caching binary to /tmp/npmcache.xPU8P/node-sass/4.10.0/linux-x64-57_binding.node
+       
+       > node-sass@4.10.0 postinstall /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/node_modules/node-sass
+       > node scripts/build.js
+       
+       Binary found at /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6/node_modules/node-sass/vendor/linux-x64-57/binding.node
+       Testing binary
+       Binary is fine
+       
+       > myjokes@0.0.0 postinstall /tmp/build_5e26bb50d36a16a510e9c8ecc6d98fc6
+       > ng build --prod
+       
+       
+       Date: 2019-02-23T08:26:49.281Z
+       Hash: 68eb00724e735c1d24c9
+       Time: 41996ms
+       chunk {0} runtime.ec2944dd8b20ec099bf3.js (runtime) 1.41 kB [entry] [rendered]
+       chunk {1} main.83e023f4647f6ededfa5.js (main) 284 kB [initial] [rendered]
+       chunk {2} polyfills.e254f6b9bf511460eb6d.js (polyfills) 41 kB [initial] [rendered]
+       chunk {3} styles.988047d82be7e66c2746.css (styles) 165 bytes [initial] [rendered]
+       added 1170 packages in 91.012s
+       
+-----> Caching build
+       - node_modules
+       
+-----> Pruning devDependencies
+       Skipping because npm 5.6.0 sometimes fails when running 'npm prune' due to a known issue
+       https://github.com/npm/npm/issues/19356
+       
+       You can silence this warning by updating to at least npm 5.7.1 in your package.json
+       https://devcenter.heroku.com/articles/nodejs-support#specifying-an-npm-version
+       
+-----> Build succeeded!
+       
+-----> Change to Node.js build process
+       On March 11, 2019 Heroku will begin executing the "build" script defined in package.json
+       by default. This application may be affected by this change.
+       
+       To make this transition easier, we've published a tool that will automatically
+       update your app for you. You can run it with one command in your app's
+       root directory:
+       
+       $ npx @heroku/update-node-build-script
+       
+       Please see https://help.heroku.com/P5IMU3MP/heroku-node-js-build-script-change-faq for more information
+       
+-----> Discovering process types
+       Procfile declares types     -> (none)
+       Default types for buildpack -> web
+-----> Compressing...
+       Done: 100M
+-----> Launching...
+       Released v3
+       https://pritam-angular-pwa.herokuapp.com/ deployed to Heroku
