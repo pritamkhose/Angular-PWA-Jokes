@@ -1,0 +1,50 @@
+Your environment has been set up for using Node.js 8.11.2 (x64) and npm.
+
+C:\Users\Pritam>E:
+
+E:\>cd E:\Code\Java\AngularCLI\PWA\myjokes
+
+E:\Code\Java\AngularCLI\PWA\myjokes>npm install enhanced-resolve@3.3.0 --save-dev
+npm WARN ajv-keywords@3.4.0 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ enhanced-resolve@3.3.0
+added 3 packages and updated 1 package in 42.364s
+
+E:\Code\Java\AngularCLI\PWA\myjokes>npm install express path --save
+npm WARN ajv-keywords@3.4.0 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ path@0.12.7
++ express@4.16.4
+added 2 packages and updated 1 package in 21.306s
+
+E:\Code\Java\AngularCLI\PWA\myjokes>npm install postinstall --save
+npm WARN ajv-keywords@3.4.0 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ postinstall@0.4.2
+added 8 packages in 20.424s
+
+E:\Code\Java\AngularCLI\PWA\myjokes>npm i npm-preinstall
+npm WARN ajv-keywords@3.4.0 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ npm-preinstall@1.0.7
+added 12 packages in 23.851s
+
+E:\Code\Java\AngularCLI\PWA\myjokes>ng build --prod
+
+Date: 2019-02-23T08:00:49.480Z
+Hash: 438d10830c35666b697e
+Time: 48593ms
+chunk {0} runtime.ec2944dd8b20ec099bf3.js (runtime) 1.41 kB [entry] [rendered]
+chunk {1} main.36ee72be87f738e93e33.js (main) 284 kB [initial] [rendered]
+chunk {2} polyfills.e254f6b9bf511460eb6d.js (polyfills) 41 kB [initial] [rendered]
+chunk {3} styles.988047d82be7e66c2746.css (styles) 165 bytes [initial] [rendered]
+
+E:\Code\Java\AngularCLI\PWA\myjokes>

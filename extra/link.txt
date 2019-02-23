@@ -1,0 +1,3 @@
+https://github.com/pritamkhose/Heroku-Angular
+
+https://dashboard.heroku.com/apps/pritam-ang/deploy/github
